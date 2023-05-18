@@ -12,12 +12,12 @@
 	<nav class="toolbar">
 		<ul class="links-container">
 		  <li class="nav-links">
-			<a href="#">INICIO</a>
+			<a href="#">HOME</a>
 		  </li>
 		  <li class="nav-links" id="content-link">
-			<a href="#">TÓPICOS</a>
+			<a onclick="scrollToSection()">TOPICS</button></a>
 		  <li class="nav-links">
-			<a href="#">SOBRE</a>
+			<a onclick="scrollToSection2()">TOOLS</a>
 		  </li>
 		</ul>
 	</nav>
@@ -31,17 +31,17 @@
 					Embora a ideia tenha surgido na década de 1980, só nos anos 1990 os primeiros qubits foram experimentados. 
 					A computação quântica tem muitas aplicações promissoras, como simulação de sistemas químicos e físicos, otimização de problemas complexos e criptografia avançada. 
 					No entanto, ainda é um desafio construir um computador quântico escalável e robusto. Apesar disso, muitos especialistas acreditam que a computação quântica terá um impacto significativo em áreas como ciência, indústria, governo e segurança.</p>
-            </article>
+				</article>
         </div>
 	</div>
 
   <!-- Topicos linkados para páginas individuais -->
-  	<h2 class="article-header-topic">Principais Tópicos</h2>
+  	<h2 id="secao1" class="article-header-topic">Tópicos</h2>
 
 	<div class="topic-container">
 		<div class="topic-box">
 			<article>
-				<h2 href="#" class="article-header">Princípios básicos da computação quântica</h2>
+				<h2 href="/pages/Introduca-fisica-quantica.html" class="article-header">Princípios básicos da computação quântica</h2>
 				<p class="article-body">A computação quântica é baseada em princípios da física quântica, incluindo superposição, entrelaçamento e medidas quânticas. É importante entender esses princípios para entender como a computação quântica funciona.</p>
 				<button class="saiba-mais-button">Saiba Mais</button>
 			</article>      
@@ -76,7 +76,7 @@
 		</div>	
 	</div>
 
-	<h2 class="article-header-topic">Ferramentas</h2>
+	<h2 id="secao2" class="article-header-topic">Ferramentas</h2>
 	
 	<!--Interagindo com usuario-->
 	<div class="topic-container-interacao">
@@ -148,5 +148,6 @@
 		  </div>
 		</div>
 	  </footer>
+	  <script src="/js/script.js"></script>
 </body>
 </html>
