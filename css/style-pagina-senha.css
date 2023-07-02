@@ -1,0 +1,256 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+table
+{
+    font-weight: bold;
+    border-radius: 7px;
+    background-color:rgb(144, 240, 240);
+}
+
+td
+{
+    border-radius: 7px;
+    border-color: #000;
+    
+}
+
+.toolbar {
+    background-color: #030202;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .toolbar a {
+    color: #fff;
+    margin-right: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+    .container-principal {
+        display: flex;
+        justify-content: center;
+        perspective: 2000px;
+        background-image: url("img/backgroundgif.gif");
+        background-size: 2000px 700px;
+        border-radius: 10px;
+        min-width: 480px;
+        border: 1rem solid #fff;
+        box-shadow: 10px 10px 10px rgb(208, 208, 208);
+      }
+
+      .left_column{
+        flex:1;
+        margin-right: 20px;
+      }
+
+    .article-header-princ {
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-size: 4rem;
+        white-space: nowrap;
+      }
+      
+
+.titulos_tabela
+{
+    background-color: #191970;
+    color: #fff;
+    font-weight: bold;
+}
+.titulos_tabela_numeros
+{
+    background-color: #191970;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.titulos_tabela_numeros:hover
+{
+    zoom: 120%;
+}
+
+.Title_name_title
+{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_hacker
+{
+    display: flex;
+    justify-content: center;
+}
+
+.password_receive
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tabela
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.IMEDIATAMENTE
+{
+    background-color: #00BFFF;
+}
+.IMEDIATAMENTE:hover
+{
+    zoom: 150%;
+}
+
+.MESES
+{
+    background-color: #1E90FF;
+}
+.MESES:hover
+{
+    zoom: 150%;
+}
+
+.ANOS
+{
+    background-color: #4169E1;
+}
+
+.ANOS:hover
+{
+    zoom: 150%;
+}
+.MILHAO
+{
+background-color: #0000FF;
+}
+
+.MILHAO:hover
+{
+    zoom: 150%;
+}
+
+.BILHAO
+{
+    background-color: #191970;
+}
+.BILHAO:hover
+{
+    zoom: 150%;
+}
+
+td.BILHAO, td.MILHAO
+{
+    color: white;
+}
+
+.text_password
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.barra_senha
+{
+    border-radius: 5px;
+    border-color: #666666;
+}
+
+.resposta
+{
+    display: none;
+    justify-content: center;
+    margin: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.senha
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.senha_buttom {
+    background-color: #666666; /* cor de fundo */
+    color: white; /* cor do texto */
+    border: none; /* borda */
+    padding: 12px 24px; /* espaçamento interno */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* decoração do texto */
+    display: inline-block; /* exibir como bloco */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 4px 2px; /* margem */
+    cursor: pointer; /* cursor ao passar o mouse */
+    border-radius: 10px; /* borda arredondada */
+}
+
+.senha_buttom:hover
+{
+    zoom: 110%;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 40px;
+  }
+  
+  footer h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  footer .col-md-4 {
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+  }
+  
